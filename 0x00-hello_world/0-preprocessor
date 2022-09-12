@@ -1,2 +1,4 @@
 #!/bin/bash
 gcc SCFILE .E .o c
+gcc -E$CFILE -o c
+gcc -E $CFILE -o c
