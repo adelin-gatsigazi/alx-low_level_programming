@@ -1,5 +1,1 @@
-THIS README FOR THE C FUNCTIONS AND NESTED LOOPS 
-B
-
-D
-THIS IS THE FIRST README 
+This README is very important in our project 
