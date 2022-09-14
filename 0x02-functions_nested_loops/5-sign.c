@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_sign -> print sign based on condition
+* print_sign -> prints sign based on condition
 * @n: argument passed
 * Return: 1, 0 1
 */
@@ -12,7 +12,7 @@ if (n > 0)
 _putchar('+');
 return (1);
 }
-lse if (n == 0)
+else if (n == 0)
 {
 _putchar('0');
 return (0);
