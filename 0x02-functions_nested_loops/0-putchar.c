@@ -5,6 +5,9 @@
 * Return: always 0
 */
 int main(void)
+/*
+* main function will print putchar
+*/
 {
 _putchar('_');
 _putchar('p');
