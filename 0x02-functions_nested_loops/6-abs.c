@@ -3,7 +3,7 @@
 /**
 * abs -> return absolute value of a number
 * @n: parameter
-* Return: 1
+* Return: 0
 */
 int _abs(int n)
 if (n < 0)
