@@ -13,7 +13,7 @@ _putchar('+');
 return (1);
 }
 else
-(n < 0) {
+(n < 0); {
 _putchar('-');
 return (-1);
 }
