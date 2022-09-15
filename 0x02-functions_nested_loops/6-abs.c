@@ -1,13 +1,17 @@
 #include "main.h"
+#include "stdio.h"
 
 /**
 * abs -> return absolute value of a number
-* @n: parameter
-* Return: 0 or 1 are absolute value of a number
+* @c: parameter
+* Return: 0
 */
-int _abs(int n)
+int _abs(int c)
 {
-if (n < 0)
-n = -n;
-return (n);
+if (c < 0 || c ==0)
+{
+return (c)
+}
+else
+return (c * -1);
 }
