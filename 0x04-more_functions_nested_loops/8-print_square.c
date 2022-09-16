@@ -2,7 +2,7 @@
 
 /**
 * print_diagonal -> printing line
-* @n: integer params
+* @size: integer params
 */
 void print_square(int size)
 {
