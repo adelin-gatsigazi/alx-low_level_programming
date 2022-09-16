@@ -2,8 +2,6 @@
 
 /**
 * more_numbers - printing numbers to 14
-*
-* Return: nothing
 */
 void more_numbers(void)
 {
