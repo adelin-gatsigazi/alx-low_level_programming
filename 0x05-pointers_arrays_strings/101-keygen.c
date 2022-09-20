@@ -5,7 +5,7 @@
  *
  * Return: always 0.
  */
-For 101int main(void)
+101int main(void)
 {
 	int pass[100];
 	int i, sum, n;
