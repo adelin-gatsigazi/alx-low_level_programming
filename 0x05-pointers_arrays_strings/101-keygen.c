@@ -10,7 +10,7 @@ For 101int main(void)
 	int pass[100];
 	int i, sum, n;
 
-	sum = 0;	
+	sum = 0;
 
 	srand(time(NULL));
 
@@ -19,7 +19,7 @@ For 101int main(void)
 		pass[i] = rand() % 98;
 		sum += (pass[i] + '0');
 		putchar(pass[i] + '0');
-		if ((3000- sum) - '0' < 98)
+		if ((3000 - sum) - '0' < 98)
 		{
 			n = 3000 - sum - '0';
 			sum += n;
@@ -29,4 +29,4 @@ For 101int main(void)
 	}
 
 	return (0);
-}  
+}
