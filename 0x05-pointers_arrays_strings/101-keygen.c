@@ -29,5 +29,4 @@ For 101int main(void)
 	}
 
 	return (0);
-}                                 
-                        
+}  
