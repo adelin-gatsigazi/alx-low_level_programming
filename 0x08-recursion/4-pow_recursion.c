@@ -1,21 +1,16 @@
 #include "main.h"
 
 /**
-* factorial - searchs for the factorial of a number
-* @n: the number to find the factorial of
-*
-* Return: the factorial of the number
+*	_pow_recursion -> power using recursion
+* @x: x ^ y
+* @y: the power number
+* Return: power result
 */
-
-int factorial(int n)
+int _pow_recursion(int x, int y)
 {
-	int next;
-
-	if (n == 0)
+	if (y < 0)
+		return (-1);
+	if (y == 0)
 		return (1);
-	else if (n < 0)
-	return (-1);
-
-	next = factorial(n - 1);
-	return (n * next);
+	return (x * _pow_recursion(x, y - 1));
 }
