@@ -1,11 +1,4 @@
-#include <stdib.h>
-D4x
-B
 
-A
-B
-D
-x
 #include <stdlib.h>
 #include <time.h.h>
 #include <stdio.h>
